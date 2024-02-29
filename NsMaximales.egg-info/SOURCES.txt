@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+NsMaximales.egg-info/PKG-INFO
+NsMaximales.egg-info/SOURCES.txt
+NsMaximales.egg-info/dependency_links.txt
+NsMaximales.egg-info/not-zip-safe
+NsMaximales.egg-info/requires.txt
+NsMaximales.egg-info/top_level.txt
+Paquete/Puntos_topologicos.py
+Paquete/__init__.py
+Paquete/base_topologica.py
+Paquete/calcular_sn.py
+Paquete/convertir_a_arbol.py
+Paquete/obtener_maximales.py
+Paquete/obtener_n_subarboles.py
+Paquete/obtener_subarboles.py

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: NsMaximales
+Version: 0.1
+Summary: NsMaximales se encarga de calcular los n-subárboles maximales y apartir de ellos obtener una base topológica
+Home-page: https://github.com/Gennifer2001/tesis/blob/main/T%C3%A9sisjeje2_1xd.ipynb
+Author: Yeimi Rodriguez y Genifer Montaño
+Author-email: gennifermontanorodriguez@gmail.com o yeimir0000@gmail.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Data Analysts
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Languaje :: Spanish
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Topic :: Data Analytics
+Classifier: Topic :: Topology
+License-File: LICENSE
+Requires-Dist: ete
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: numpy
+
+# NsMaximales
+NsMaximales se encarga de calcular los n-subarboles maximales y apartir de ellos obtener una base topologica.
