@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-if __name__ = "__main__": setup(name="NsMaximales", 
+if __name__ == "__main__": setup(name="NsMaximales", 
                                 description="NsMaximales se encarga de calcular los n-subárboles maximales y apartir de ellos obtener una base topológica",
                                 license="MIT",
                                 url="https://github.com/Gennifer2001/tesis/blob/main/T%C3%A9sisjeje2_1xd.ipynb",version="0.1",
