@@ -9,7 +9,7 @@ if __name__ == "__main__": setup(name="NsMaximales",
                                 long_description=open("README.md").read(),
                                 packages=find_packages(),
                                 zip_safe= False,
-                                install_requires = ["ete","pandas","scipy","numpy"],
+                                install_requires = ["ete3","pandas","scipy","numpy"],
                                 classifiers=
                                 ['Development Status :: 4 - Beta',
                                  'Intended Audience :: Developers',
