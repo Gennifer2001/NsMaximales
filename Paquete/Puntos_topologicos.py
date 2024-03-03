@@ -10,7 +10,7 @@ class puntos_topologicos:
     Ext_enteros = [int(elemento) for elemento in Ext]
     tabla = df.loc[Ext_enteros]
 
-    print(f"Ext({'A'})= {Ext}")
+    print(f"Exterior = {Ext}")
     return tabla
   
   def interior(Base,conjunto,df):
@@ -23,7 +23,7 @@ class puntos_topologicos:
     Int_enteros = [int(elemento) for elemento in Int]
     tabla = df.loc[Int_enteros]
 
-    print(f"Int({'A'}) = {Int}")
+    print(f"Interior = {Int}")
     return tabla
   def adherencia(Base,A,df):
         Adh = []
@@ -35,7 +35,7 @@ class puntos_topologicos:
         Adh_enteros = [int(elemento) for elemento in Adh]
         tabla = df.loc[Adh_enteros]
 
-        print(f"{'A'}'= {Adh}")
+        print(f"Adherencia = {Adh}")
         return tabla
   def limite(Base,A,df):
    Lim = []
@@ -48,7 +48,7 @@ class puntos_topologicos:
    Lim_enteros = [int(elemento) for elemento in Lim]
    tabla = df.loc[Lim_enteros]
 
-   print(f"{'A'}'= {Lim}")
+   print(f"Límite = {Lim}")
    return tabla
   
   def frontera(Base,A,df):
@@ -61,5 +61,5 @@ class puntos_topologicos:
    Fr_enteros = [int(elemento) for elemento in Fr]
    tabla = df.loc[Fr_enteros]
 
-   print(f"Fr({'A'})= {Fr}")
+   print(f"Frontera = {Fr}")
    return tabla
