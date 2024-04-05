@@ -1,4 +1,21 @@
 from setuptools import setup, find_packages
+import os
+import re
+import codecs
+
+NAME = 'NSMAXIMALES'
+META_PATH = os.path.join(NAME,' __init__.py')
+REQUIREMENTS =  ["ete3","pandas","scipy","numpy"]
+CLASSIFIERS = ['Development Status :: 4 - Beta',
+                                 'Intended Audience :: Developers',
+                                 'Intended Audience :: Data Analysts',
+                                 'License :: OSI Approved :: MIT License',
+                                 'Natural Languaje :: Spanish',
+                                 'Operating System :: Microsoft :: Windows',
+                                 'Programming Language :: Python',
+                                 'Topic :: Data Analytics',
+                                 'Topic :: Topology']
+HERE = os.path.abspath(os.path.dirname(__name__))
 
 if __name__ == "__main__": setup(name="NsMaximales", 
                                 description="NsMaximales se encarga de calcular los n-subárboles maximales y apartir de ellos obtener una base topológica",
@@ -9,14 +26,5 @@ if __name__ == "__main__": setup(name="NsMaximales",
                                 long_description=open("README.md").read(),
                                 packages=find_packages(),
                                 zip_safe= False,
-                                install_requires = ["ete3","pandas","scipy","numpy"],
-                                classifiers=
-                                ['Development Status :: 4 - Beta',
-                                 'Intended Audience :: Developers',
-                                 'Intended Audience :: Data Analysts',
-                                 'License :: OSI Approved :: MIT License',
-                                 'Natural Languaje :: Spanish',
-                                 'Operating System :: Microsoft :: Windows',
-                                 'Programming Language :: Python',
-                                 'Topic :: Data Analytics',
-                                 'Topic :: Topology'])
+                                install_requires = REQUIREMENTS,
+                                classifiers= CLASSIFIERS)
