@@ -1,3 +1,5 @@
+from scipy.cluster import hierarchy
+
 class convertir_a_arbol:
    def get_newick(node, parent_dist, leaf_names, newick='') -> str:
     """
