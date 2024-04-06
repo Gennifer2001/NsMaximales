@@ -1,5 +1,5 @@
-class convertir_a_arbol:
-   def get_newick(node, parent_dist, leaf_names, newick='') -> str:
+
+def get_newick(node, parent_dist, leaf_names, newick='') -> str:
     """
     Convert sciply.cluster.hierarchy.to_tree()-output to Newick format.
 
@@ -22,7 +22,7 @@ class convertir_a_arbol:
         return newick
     
 
-   def convertir_a_Tree(dendo, leaf_names):
+def convertir_a_Tree(dendo, leaf_names):
       """
       Convierte la salida de scipy.cluster.hierarchy.to_tree a un objeto ete3.Tree.
       """
