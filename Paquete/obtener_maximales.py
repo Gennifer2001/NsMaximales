@@ -1,5 +1,5 @@
-class obtener_maximal:
-    def es_contenido(subarbol1, subarbol2):
+
+def es_contenido(subarbol1, subarbol2):
       """
       Verifica si subarbol1 está contenido en subarbol2.
       """
@@ -12,7 +12,7 @@ class obtener_maximal:
       return False
 
 
-    def obtener_maximales(n_subarboles):
+def obtener_maximales(n_subarboles):
         """
         Obtiene los n-subarboles maximales a partir de la lista de n-subarboles.
         """
