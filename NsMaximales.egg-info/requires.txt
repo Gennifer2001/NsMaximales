@@ -2,4 +2,3 @@ ete
 pandas
 scipy
 numpy
-scipy.cluster
