@@ -1,12 +1,12 @@
-class obtener_subarbol:
+
     
-    def asignar_nombres(arbol):
+def asignar_nombres(arbol):
 
      for i, nodo in enumerate(arbol.traverse()):  #Asigna nombres a los nodos si no tienen uno
         if not nodo.name:
             nodo.name = f"Nodo_{i}"
 
-    def obtener_subarboles(arbol):
+def obtener_subarboles(arbol):
         subarboles = []  #Inicializa una lista para almacenar los subárboles
 
         for nodo in arbol.traverse():  #Busca nodos descendientes del nodo iterado
