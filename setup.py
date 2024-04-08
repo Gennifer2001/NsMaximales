@@ -5,7 +5,7 @@ import codecs
 
 NAME = 'NSMAXIMALES'
 META_PATH = os.path.join(NAME,' __init__.py')
-REQUIREMENTS =  ["ete3","pandas","scipy","numpy"]
+REQUIREMENTS =  ["ete3","pandas","scipy","numpy","scipy.cluster"]
 CLASSIFIERS = ['Development Status :: 4 - Beta',
                                  'Intended Audience :: Developers',
                                  'Intended Audience :: Data Analysts',
