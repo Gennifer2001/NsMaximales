@@ -1,4 +1,4 @@
-   def get_newick(node, parent_dist, leaf_names, newick='') -> str:
+def get_newick(node, parent_dist, leaf_names, newick='') -> str:
     """
     Convert sciply.cluster.hierarchy.to_tree()-output to Newick format.
 
