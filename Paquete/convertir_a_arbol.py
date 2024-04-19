@@ -23,6 +23,8 @@ class convertir_a_arbol:
     
 
    def convertir_a_Tree(dendo, leaf_names):
+      import ete3
+      from ete3 import Tree
       from scipy.cluster import hierarchy
       """
       Convierte la salida de scipy.cluster.hierarchy.to_tree a un objeto ete3.Tree.
