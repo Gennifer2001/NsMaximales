@@ -7,6 +7,7 @@ def asignar_nombres(arbol):
             nodo.name = f"Nodo_{i}"
 
 def obtener_subarboles(arbol):
+    from ete3 import Tree
         subarboles = []  #Inicializa una lista para almacenar los subárboles
 
         for nodo in arbol.traverse():  #Busca nodos descendientes del nodo iterado
