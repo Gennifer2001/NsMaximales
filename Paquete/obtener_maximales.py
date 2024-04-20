@@ -18,6 +18,7 @@ def obtener_maximales(n_subarboles):
         """
         maximales = []  #Inicializa una lista para los maximales en cada n
         subarboles_no_maximales = set()
+        from Paquete.obtener_maximales import es_contenido
 
         for n, subarboles in n_subarboles:
             subarboles_maximales = []  #Inicializa una lista para los maximales
