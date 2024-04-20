@@ -1,6 +1,4 @@
-class puntos_topologicos:
-
-  def exterior(Base, conjunto,df):
+def exterior(Base, conjunto,df):
     Ext = []
 
     for i in Base:
@@ -13,7 +11,7 @@ class puntos_topologicos:
     print(f"Exterior = {Ext}")
     return tabla
   
-  def interior(Base,conjunto,df):
+def interior(Base,conjunto,df):
     Int = []
 
     for i in Base:
@@ -25,7 +23,7 @@ class puntos_topologicos:
 
     print(f"Interior = {Int}")
     return tabla
-  def adherencia(Base,A,df):
+def adherencia(Base,A,df):
         Adh = []
 
         for i in Base:
@@ -37,7 +35,7 @@ class puntos_topologicos:
 
         print(f"Adherencia = {Adh}")
         return tabla
-  def limite(Base,A,df):
+def limite(Base,A,df):
    Lim = []
 
    for i in Base:
@@ -51,7 +49,7 @@ class puntos_topologicos:
    print(f"Límite = {Lim}")
    return tabla
   
-  def frontera(Base,A,df):
+def frontera(Base,A,df):
    Fr = []
 
    for i in Base:
