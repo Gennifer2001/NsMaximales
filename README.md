@@ -13,6 +13,7 @@ from Paquete.obtener_maximales import obtener_maximales
 from Paquete.calcular_sn import calcular_sn
 from Paquete.base_topologica import base_topologica
 from Paquete.Puntos_topologicos import Exterior,Interior,Limite,Frontera,Adherencia
+from Paquete.operadores_topologicos import exterior,interior,limite,frontera,adherencia
 ```
 Para ilustrar el uso del código, presentaremos un breve ejemplo usando un dendrograma de 20 hojas.
 
@@ -97,11 +98,22 @@ edades1 = df[df[’age’]==’12-18’]
 A = list(edades1.index.astype(str))
 
 #Los parámetro para todos los puntos son las asignaciones de la base, la lista de índices y la base de datos usada respectivamente. La salida de cada uno es una lista con los índices que pertenecen al conjunto y un dataframe con estos puntos filtrados. Por ejemplo:
-adherencia(Base_resultados,A,df
+Adherencia(Base_resultados,A,df
 ```
-
-La salida de `adherencia` será una lista de índices que pertenecen al conjunto y un DataFrame con estos puntos filtrados.
 ```
 Adherencia = [’9’, ’4’, ’18’, ’3’]
 ```
 ![Python](READ_ME/python.pdf)
+
+Si se necesita unicamente el resultado de los operadores topologicos sin una base de datos se debe utilizar el nombre del conjunto sin mayuscula y devuleve unicamenete la lista
+
+```python
+adherencia(Base_resultados,A)
+```
+```
+Adherencia = [’9’, ’4’, ’18’, ’3’]
+```
+
+Claro, aquí tienes una versión revisada y mejorada del párrafo:
+
+Las funciones de 'operadores_topologicos' se utilizan para calcular los operadores topológicos de una base o incluso de una topología, almacenando este conjunto como una lista de objetos en Python que pueden ser asignados a la variable 'Base_topologica'. Esto permite que el código se utilice no solo para análisis topológico de datos, sino también para cálculos más simples.
