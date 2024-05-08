@@ -1,4 +1,19 @@
+Empecemos con la instalación del paquete con el siguiente codigo
 
+```python
+!pip install git+https://github.com/Gennifer2001/NsMaximales.git
+```
+y para cargar cada una de las funciones se necesita
+
+```python
+from Paquete.convertir_a_arbol import convertir_a_Tree
+from Paquete.obtener_subarboles import asignar_nombres,obtener_subarboles
+from Paquete.obtener_n_subarboles import obtener_n_subarboles
+from Paquete.obtener_maximales import obtener_maximales
+from Paquete.calcular_sn import calcular_sn
+from Paquete.base_topologica import base_topologica
+from Paquete.Puntos_topologicos import Exterior,Interior,Limite,Frontera,Adherencia
+```
 Para ilustrar el uso del código, presentaremos un breve ejemplo usando un dendrograma de 20 hojas.
 
 ![Dendrograma arbitrario con 20 hojas](READ_ME/dendro.pdf)
