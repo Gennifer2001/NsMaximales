@@ -114,6 +114,4 @@ adherencia(Base_resultados,A)
 Adherencia = [’9’, ’4’, ’18’, ’3’]
 ```
 
-Claro, aquí tienes una versión revisada y mejorada del párrafo:
-
 Las funciones de 'operadores_topologicos' se utilizan para calcular los operadores topológicos de una base o incluso de una topología, almacenando este conjunto como una lista de objetos en Python que pueden ser asignados a la variable 'Base_topologica'. Esto permite que el código se utilice no solo para análisis topológico de datos, sino también para cálculos más simples.
