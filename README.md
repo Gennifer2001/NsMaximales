@@ -8,11 +8,16 @@ arbol = convertir_a_Tree(dendo, leaf_names=range(0,20))
 print(arbol.write(format=9))
 ```
 
+```
+(((((13,12),14),(2,1)),((((18,3),4),9),(8,7))),((((17,10),15),((6,5),16)),((19,11),0)));
+```
+
 Para obtener subárboles y visualizarlos:
 
 ```python
 asignar_nombres(arbol)
 todos_subarboles = obtener_subarboles(arbol)
+#Ambas funciones requieren como parámetro el árbol obtenido en la función anterior
 
 n_subs = obtener_n_subarboles(todos_subarboles, 20)
 
