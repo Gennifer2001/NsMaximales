@@ -10,7 +10,7 @@ def exterior(Base, conjunto):
     print(f"Exterior = {Ext}")
 
   
-def interior(Base,conjunto,df):
+def interior(Base,conjunto):
     Int = []
 
     for i in Base:
@@ -21,7 +21,7 @@ def interior(Base,conjunto,df):
 
     print(f"Interior = {Int}")
    
-def adherencia(Base,A,df):
+def adherencia(Base,A):
         Adh = []
 
         for i in Base:
@@ -32,7 +32,7 @@ def adherencia(Base,A,df):
 
         print(f"Adherencia = {Adh}")
 
-def limite(Base,A,df):
+def limite(Base,A):
    Lim = []
 
    for i in Base:
@@ -44,7 +44,7 @@ def limite(Base,A,df):
 
    print(f"Límite = {Lim}")
   
-def frontera(Base,A,df):
+def frontera(Base,A):
    Fr = []
 
    for i in Base:
